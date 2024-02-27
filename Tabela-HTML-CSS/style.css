@@ -1,0 +1,19 @@
+p {
+    color: greenyellow;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+thead td{
+
+    border: 3px solid green;
+}
+
+    table, th, tr, td {
+        border-collapse: collapse;
+        border-color: red;
+        border-width: 1px;
+        border-style: solid;
+
+        border: 1px solid red;
+    }
