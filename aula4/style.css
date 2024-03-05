@@ -1,0 +1,114 @@
+/* Regra CSS
+Seletor{
+    propriedades: valor;
+    ...: ;
+    }
+    */
+    *{
+        margin: 0px;
+        padding: 0px;
+        -webkit-text-fill-color: white;
+    }
+
+    html{
+        border: 1px solid rgb(255, 255, 255);
+
+    }
+    body{
+        border: 1px solid rgb(255, 255, 255);
+    }
+table,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+
+th,
+caption {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+
+thead {
+    background-color: rgb(125, 196, 54);
+}
+
+tfoot {
+    background-color: rgb(155, 96, 9);
+}
+
+span {
+    display: block;
+}
+
+ul,
+ol {
+    display: inline-block;
+    width: 70px;
+    height: 100px;
+    border: 5px solid rgb(255, 255, 255);
+
+}
+
+#churrasco {
+    width: 200px;
+
+}
+
+div img {
+    width: 40%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    border-radius: 10% 20% 40% 50%;
+
+}
+
+#box1{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed coral;
+    background-color: lightgreen;
+    background-image: url("./beer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    transition: 2s;
+  line-height: 300px;
+  
+}
+table{
+    transition: 3s;
+}
+table:hover{
+    rotate: 190deg;
+}
+#box1:hover{
+    zoom: 1.4;
+
+}
+body{
+    background-color: beige;
+    background-image: url("./wallpaper.jpg");
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+#box2{
+    width: 300px;
+    height: 300px;
+    border: 1px dashed coral;
+    background-color: lightgreen;
+    background-image: url("./Gasparzinho.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    transition: 2s;
+    line-height: 300px;
+    opacity: 0.3;
+}
+#box2:hover{
+rotate: 90deg;
+}
