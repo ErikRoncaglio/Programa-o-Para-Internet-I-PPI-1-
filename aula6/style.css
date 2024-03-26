@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: row;
+
+    flex-wrap: wrap;/*se vai quebrar linha ou não*/
+    justify-content: space-evenly;/*linha principal(espaço das linhas)*/
+   /* align-items: center;/*linha secundaria(elementos)*/
+    align-content: stretch;/*espaço entre as linhas*/
+
+}
+.box{
+    border: 1px solid black;
+    flex-shrink: 0;
+    min-width: 30px;
+   
+}
+.box:hover{
+     flex-grow: 1;
+     transition: 2s;
+     background-color: blueviolet;
+}
+
+#c1-box5{
+    align-self: flex-start;
+}
