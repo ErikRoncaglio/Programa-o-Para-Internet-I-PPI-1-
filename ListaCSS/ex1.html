@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .boxParent {
+            border: 1px solid black;
+            /*Linha na extremidade do elemento entre o padding e o margin*/
+            padding: 5px;
+            /*espaçamento interno*/
+            margin: 5px;
+            /*espaçamento externo*/
+            outline: 2px dotted #ff0000;
+            /* contorno */
+            height: 100px;
+            width: 100px;
+            background-color: beige;
+        }
+
+        .boxChild {
+            border: 5px solid red;
+            background-color: #ccc;
+            /* cor de fundo do conteúdo */
+            color: #333;
+            /* cor do texto */
+            font-size: 18px;
+            text-align: center;
+            box-sizing: border-box;
+            /*Bordas e paddings são incluídos no cáculo de altura e largura*/
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            /* Centraliza horizontalmente */
+            align-items: center;
+            /* Centraliza verticalmente */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxParent">
+        <div class="boxChild">Model Box</div>
+    </div>
+</body>
+
+</html>

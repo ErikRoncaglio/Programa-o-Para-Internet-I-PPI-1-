@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .transicao {
+            background-color: burlywood;
+            border: 2px solid black;
+            padding: 2px;
+            margin: 2px;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            font-size: 18px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: mudarCor 5s ease-in 0s infinite;
+        }
+
+        @keyframes mudarCor {
+            0% {
+                background-color: burlywood;
+            }
+
+            30% {
+                background-color: darkmagenta;
+            }
+
+            60% {
+                background-color: greenyellow;
+            }
+
+            100% {
+                background-color: navy;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="transicao">Transição</div>
+</body>
+
+</html>

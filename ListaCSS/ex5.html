@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes lancamento {
+            0% {
+                top: 100%;
+            }
+
+            100% {
+                top: 0px;
+            }
+        }
+
+        * {
+            background-color: rgb(218, 181, 112);
+        }
+
+        #rocket {
+            width: 100px;
+            position: fixed;
+            bottom: 0px;
+            left: 50%;
+            animation: lancamento 5s ease-in 0s infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div><img id=rocket src="./rocket (1).png" alt="Foguetinho"></div>
+</body>
+
+</html>
