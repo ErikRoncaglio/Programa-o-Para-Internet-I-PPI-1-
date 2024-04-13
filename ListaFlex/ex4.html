@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="box1"><img src="./img1.avif" alt=""></div>
+        <div class="box" id="box2"><img src="./img2.avif" alt=""></div>
+        <div class="box" id="box3"><img src="./img3.jpg" alt=""></div>
+        <div class="box" id="box4"><img src="./img4.webp" alt=""></div>
+        <div class="box" id="box5"><img src="./img5.avif" alt=""></div>
+    </div>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .container {
+            background-color: rgb(180, 228, 235);
+            width: 700px;
+height: 500px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: stretch;
+            flex-wrap: wrap;
+            border-radius: 20%;
+
+        }
+
+        .box {
+
+            display: flex;
+            justify-content: start;
+            align-items: center;
+             padding: 5px;
+        }
+
+        
+        img {
+            width: 50px;
+           height: 350px;
+          
+            border-radius: 30%;
+
+            display: inline-block;
+            transition: 1s;
+        }
+
+img:hover{
+    transition: 2s;
+    width: 300px;
+}
+
+        </style>
+</body>
+</html>

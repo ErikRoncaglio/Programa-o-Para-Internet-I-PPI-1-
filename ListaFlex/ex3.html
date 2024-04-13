@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box1">
+            <img src="./image.png" alt="">
+            <p>Nome Sobrenome <br> <span>Descrição</span></p>
+        </div>
+        <div class="box" id="box2"><img src="./image.png" alt="">
+            <p>Nome Sobrenome <br> <span>Descrição</span></p>
+        </div>
+        <div class="box" id="box3"><img src="./image.png" alt="">
+            <p>Nome Sobrenome <br> <span>Descrição</span></p>
+        </div>
+        <div class="box" id="box4"><img src="./image.png" alt="">
+            <p>Nome Sobrenome <br> <span>Descrição</span></p>
+        </div>
+    </div>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        .container {
+            background-color: antiquewhite;
+            width: 400px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: stretch;
+            flex-wrap: wrap;
+
+        }
+
+        .box {
+
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        p,
+        span {
+            display: inline-block;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        span {
+            font-size: 16px;
+            color: rgb(139, 139, 139);
+        }
+
+        img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+
+            display: inline-block;
+        }
+    </style>
+</body>
+
+</html>
