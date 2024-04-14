@@ -1,0 +1,72 @@
+
+Nível 1:
+  Usar justify-content para alinhar o sapo na folha de lótus.
+
+Nível 2:
+  Alinhar múltiplos sapos usando justify-content.
+
+Nível 3:
+  Alinhar os sapos verticalmente com align-items.
+
+Nível 4:
+  Usar justify-content e align-items para alinhar os sapos.
+
+Nível 5:
+  Mudar a direção dos sapos usando flex-direction.
+
+Nível 6:
+  Reorganizar a ordem dos sapos com order.
+
+Nível 7:
+  Ajustar o alinhamento individual dos sapos usando align-self.
+
+Nível 8:
+  Permitir que os sapos quebrem para a próxima linha com flex-wrap.
+
+Nível 9:
+  Ajustar o espaçamento entre as linhas de sapos com align-content.
+
+Nível 10:
+  Combinar align-content e flex-wrap para posicionar os sapos.
+
+Nível 11:
+  Usar order e align-self para reorganizar e alinhar os sapos.
+
+Nível 12:
+  Praticar o uso de align-self para ajustar o alinhamento dos sapos.
+
+Nível 13:
+  Mudar a direção dos sapos verticalmente com flex-direction.
+
+Nível 14:
+  Alinhar os sapos horizontalmente com justify-content.
+
+Nível 15:
+  Usar flex-direction e align-items para posicionar os sapos.
+
+Nível 16:
+  Combinar justify-content e align-items para alinhar os sapos.
+
+Nível 17:
+  Permitir que os sapos quebrem para a próxima linha usando flex-wrap.
+
+Nível 18:
+  Ajustar o espaçamento entre as linhas de sapos com align-content e flex-wrap.
+
+Nível 19:
+  Praticar o uso de order para reorganizar os sapos.
+
+Nível 20:
+  Combinar order e align-self para reorganizar e alinhar os sapos.
+
+Nível 21:
+  Integrar flex-direction, justify-content e align-items para posicionar os sapos.
+
+Nível 22:
+  Continuar a prática de posicionar os sapos com precisão usando os conceitos aprendidos.
+
+Nível 23:
+  Mais prática na aplicação precisa dos conceitos de posicionamento dos sapos.
+
+Nível 24:
+  Aplicar todos os conceitos aprendidos até agora para posicionar os sapos corretamente.

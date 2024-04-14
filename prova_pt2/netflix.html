@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box" id="box-1">
+            <div class="top" id="top1"><img src="./Logonetflix.png" alt=""></div>
+            <div class="top" id="top2">
+                <p>Inicio</p>
+            </div>
+            <div class="top" id="top3">
+                <p>Séries</p>
+            </div>
+            <div class="top" id="top4">
+                <p>Filmes</p>
+            </div>
+            <div class="top" id="top5">
+                <p>Bombando</p>
+            </div>
+            <div class="top" id="top6">
+                <p>Minha lista</p>
+            </div>
+            <div class="top" id="top7">
+                <p>Navegar por idiomas</p>
+            </div>
+            <div class="top" id="top8"></div>
+            <div class="top" id="top9"><img src="./procurar.png" alt=""></div>
+            <div class="top" id="top10"><img src="./notificacao.png" alt=""></div>
+            <div class="top" id="top11"><img src="./image.png" alt=""></div>
+        </div>
+        <div class="box" id="box-2">
+            <div class="main" id="main1">
+                <p>Descrição: asbadoaodhasodoasdoasbodasodaod <br>bsickbasbabdlabndlasbdhbaolbdabd <br>abskjbdoasdadk.
+                </p>
+            </div>
+            <div class="main" id="main2">
+                  <p>Assistir</p>
+                <p>Mais informações</p>
+       
+            </div>
+        </div>
+        <div class="titulo">
+            <p>Em alta</p>
+        </div>
+        <div class="box" id="box-3">
+
+            <div class="filme1" id="filme1"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme2"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme3"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme4"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme5"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme6"><img src="./filme.jpg" alt=""></div>
+
+        </div>
+        <div class="titulo">
+            <p>Continuar Assistindo como user</p>
+        </div>
+        <div class="box" id="box-4">
+
+            <div class="filme1" id="filme7"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme8"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme9"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme10"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme11"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme12"><img src="./filme.jpg" alt=""></div>
+
+        </div>
+        <div class="titulo">
+            <p>Lançamentos</p>
+        </div>
+        <div class="box" id="box-5">
+
+            <div class="filme1" id="filme13"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme14"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme15"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme16"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme17"><img src="./filme.jpg" alt=""></div>
+            <div class="filme1" id="filme18"><img src="./filme.jpg" alt=""></div>
+
+        </div>
+    </div>
+
+    <style>
+        #main2{
+            display: flex; /* Torna o contêiner um flex container */
+   
+   align-items: center;
+   text-align: center;
+  
+
+        }
+
+        #box-3,
+        #box-4,
+        #box-5 {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+           
+            gap: 15px;
+            margin: 20px;
+            margin-top: 50px;
+        }
+
+        .titulo {
+            font-size: 22px;
+            margin: 20px;
+            margin-top: 60px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            display: inline;
+            color: white;
+
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .filme {
+            display: flex;
+            flex-wrap: nowrap;
+            /* Impede que os elementos quebrem para a próxima linha */
+            justify-content: flex-start;
+            overflow-x: auto;
+            /* Adiciona rolagem horizontal quando necessário */
+            margin-bottom: 20px;
+            /* Adiciona um espaço entre o box-3 e os outros boxes */
+        }
+
+        .filme>div {
+            width: 200px;
+            margin-right: 10%;
+            /* Espaçamento entre as imagens */
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+
+
+
+        body {
+            background-color: rgba(0, 0, 0, 0.863);
+
+        }
+
+
+
+        .box {
+
+            height: 100%;
+
+        }
+
+        body>.container {
+
+            height: 1500px;
+            display: grid;
+            grid-template-areas:
+                "header"
+                "main"
+                "body";
+            justify-content: center;
+            align-items: center;
+            grid-template-rows: 50px 600px 50px 200px 50px 200px 50px 200px;
+            ;
+            grid-template-columns: 100%;
+
+        }
+
+        #box-1 {
+
+            grid-area: header;
+            display: grid;
+            grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 45% 5% 5% 5%;
+            align-items: center;
+            justify-items: center;
+            grid-gap: 10px;
+            background-color: rgba(0, 0, 0, 0.377);
+
+        }
+
+        #box-2 {
+            /* Define a imagem de fundo */
+            background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.862)), url('./bad_boys.jpg');
+            /* Define a posição, tamanho e repetição da imagem de fundo */
+            background-position: center;
+            background-size: auto;
+            background-attachment: local;
+            grid-area: main;
+            opacity: 0.9;
+            background-color: rgb(37, 37, 37);
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            row-gap: 10px;
+          
+     
+
+        }
+
+        #main1 {
+            width: 250px;
+            background-color: rgba(0, 0, 0, 0.582);
+            font-size: medium;
+            margin: 15px;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
+        #main2>p {
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.527);
+            
+            border-radius: 20%;
+            width: 200px;
+            height: 50px;
+            margin: 30px;
+            margin-bottom: 50px;
+        justify-content: center;
+        align-items: center;
+            color: black;
+            font-size: 24px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .top {
+            display: inline-block;
+
+        }
+
+        .top>p {
+            font-size: small;
+        }
+
+        .top>img {
+            height: 40px;
+            width: 40px;
+            border-radius: 30%;
+        }
+    </style>
+</body>
+
+</html>
