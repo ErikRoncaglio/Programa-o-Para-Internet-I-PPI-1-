@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>O resultado é:</h1>
+<p id="presultado">-</p>
+</body>
+<script>
+      let t=true;
+    function toggletema(){
+      
+        if(t==true){
+        document.body.style.backgroundColor="#AAAAAA"
+        t=false;
+      } else{
+        document.body.style.backgroundColor="#FFFFFF"
+        t=true;
+      }
+    }
+      document.body.addEventListener('click', toggletema);
+
+
+
+
+    function soma(){
+        let a=Number(prompt("Informa o valor de A"));
+        let b=Number(prompt("Informa o valor de B"));
+        let paragrafo=document.getElementById("presultado");
+        paragrafo.innerHTML=a+b;
+        paragrafo.style.backgroundColor="AA0000"
+        let =p.getElementById("presultado");
+    }
+    p.addEventListener('click', soma);
+</script>
+</html>
