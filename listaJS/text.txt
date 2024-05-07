@@ -1,0 +1,43 @@
+1-
+console.log("Hello world")
+doucment.write("Hello world")
+alert("Hello world")
+
+2-
+O problema é que o elemento hmtml foi chamado antes de ter sido declarado;
+
+3-
+let a = Number(prompt("Informe a:"));
+let b = Number(prompt("Informe b:"));
+
+console.log(a+b);
+
+4-
+let a = Number(prompt("Informe o número: "));
+if(a%2==0){
+    alert("O número é par!");
+}else{
+    alert("O número é ímpar!");
+}
+
+5-
+function soma (a, b){
+    if(typeof(a)=="number" && typeof(b)=="number"){
+return a+b;
+}
+}
+
+let a = Number(prompt("Informe a:"));
+let b = Number(prompt("Informe b:"));
+
+console.log(soma(a, b));
+
+6-
+let a = Number(prompt("Informe a:"));
+
+for(let i=0;i<a;i++){
+    console.log(i);
+}
+
+7-
+
