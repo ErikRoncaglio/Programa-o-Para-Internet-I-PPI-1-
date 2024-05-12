@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box" id="box-1">box-1</div>
+        <div class="box" id="box-2">box-2</div>
+        <div class="box" id="box-3">box-3</div>
+        <div class="box" id="box-4">box-4</div>
+        <div class="box" id="box-5">box-5</div><br><br>
+        <button id="btn">Alterar paleta</button>
+    </div>
+
+    <script>
+let b=document.querySelector("#btn");
+
+b.addEventListener('click', ()=>{
+    let b1 = document.querySelector('#box-1');
+            let b2 = document.querySelector('#box-2');
+            let b3 = document.querySelector('#box-3');
+            let b4 = document.querySelector('#box-4');
+            let b5 = document.querySelector('#box-5');
+
+            b1.style.backgroundColor = genColor();
+            b2.style.backgroundColor = genColor();
+            b3.style.backgroundColor = genColor();
+            b4.style.backgroundColor = genColor();
+            b5.style.backgroundColor = genColor();
+
+            b1.innerHTML = b1.style.backgroundColor;
+            b2.innerHTML = b2.style.backgroundColor;
+            b3.innerHTML = b3.style.backgroundColor;
+            b4.innerHTML = b4.style.backgroundColor;
+            b5.innerHTML = b5.style.backgroundColor;
+});
+
+function genColor(){
+
+
+    let txt='#';
+    txt+=(Math.floor(Math.random()*255)).toString(16);
+    txt+= (Math.floor(Math.random()*255)).toString(16);
+    txt+=(Math.floor(Math.random()*255)).toString(16);
+    return txt;
+
+}
+
+    </script>
+    <style>
+           body{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+        }
+        
+        .box{
+        
+            display: inline-block;
+        text-align: center;
+          
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+        }
+
+    </style>
+</body>
+</html>
